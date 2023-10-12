@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>@yield('judul')</title>
     <link rel="stylesheet" href="css/bootstrap.css">
+    @yield('css')
 </head>
 
 <body>
@@ -47,6 +48,7 @@
       </div>
 
     <script src="js\bootstrap.bundle.min.js"></script>
+    @yield('js')
 </body>
 
 </html>
